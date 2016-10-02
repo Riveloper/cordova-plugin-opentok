@@ -9,4 +9,8 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+
+    <!--Fixes problem publishing-->
+    <!--For some reason Cordova 5 will not publish on Android.-->
+    <engine name="android" spec="4.0.2" />
 </widget>
